@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes Externas</title>
+</head>
+
+<style>
+    /* USAR FONTES BAIXADAS*/
+    @font-face {
+        font-family: 'The Centurion';
+        src: url('/fonts/ Centurion.otf') format('opentype'), 
+             url('fonts/The\ Centurion\ .ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+
+        /* 
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)  
+        - embed-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg
+        */
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-family: 'The Centurion', Times;
+        font-size: 4em;
+        font-weight: normal;
+        text-align: center;
+
+    }
+</style>
+
+<body>
+    <h1>Título</h1>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolorum rem officiis incidunt aut facilis distinctio perspiciatis maxime porro voluptatibus sequi laboriosam, adipisci ea minus vitae repellat ad a voluptatem?</p>
+</body>
+
+</html>

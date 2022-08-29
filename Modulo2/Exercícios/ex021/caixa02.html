@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>Meu site</h1>
+        <nav> <!-- Menu de navegação -->
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+        </nav>       
+    </header>
+
+    <main> <!-- Conteúdo principal -->
+        <section class="assuntos">
+            <p>Notícias de tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Título da notícia</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, vero at nostrum reiciendis itaque, fuga molestiae tempora eos officiis corrupti corporis officia neque, deleniti sequi eius mollitia expedita molestias ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sunt perferendis, cupiditate saepe minima at corporis facilis impedit officiis, obcaecati optio dicta fugiat aut unde quas praesentium earum placeat sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aperiam fuga exercitationem aliquam repellendus ea reprehenderit optio eveniet labore nihil ducimus, ab libero dicta ipsam perspiciatis doloremque velit itaque sit?</p>
+                <aside class="escritor">
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <section>
+                <article>
+                    <h2>Uso de Grouping tags</h2>
+
+                    <p>Podemos usar várias tags para organizar o conteúdo de nosso site, sem termos que usar apenas <code class="codigo">div</code>, deixando o site com melhor engajamento semântico, como as tags <code class="codigo">header</code> <code class="codigo">main</code> <code class="codigo">footer</code> para organizar o cabeçalho, conteúdo principal e rodapé respectivamente.</p>
+
+                    <p>Também podemos utilizar a tag <code class="codigo">nav</code> para criarmos menus de navegação, geralmente dentro do cabeçalho (<code class="codigo">header</code>).</p>
+
+                    <p>A tag <code class="codigo">section</code> é usada para determinar as sessões ou partes de nosso conteúdo, como por exemplo: <code class="codigo">&lt;section id="noticias"&gt;</code>.</p>
+
+                    <p>Como o própio nome sugere, a tag <code class="codigo">article</code> é utilizada para escrever artigos dentro de nosso conteúdo. Ótimo para delimitarmos no serviço de busca dos navegadores de que se trata de um artigo.</p>
+
+                    <p>A tag <code class="codigo">aside</code> é utilizada para apresentar informações tangenciais ao conteúdo principal, exemplo:</p>
+                    <div class="codigo"><pre>
+&lt;aside&gt;
+    &lt;p&gt;Artigo escrito por Rafael Matiola&lt;/p&gt;
+&lt;/aside&gt;</pre>
+                    </pre></div>
+
+                    <aside class="escritor">
+                        <p>Artigo escrito por Rafael Matiola</p>
+                    </aside>
+                </article>
+            </section>
+        </section>
+        <footer> <!-- Rodapé -->
+            <p>Desenvolvido durante estudos de desenvolvimento web.</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>

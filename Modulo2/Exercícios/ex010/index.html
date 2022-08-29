@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Usando Links</h1>
+    <h2>Links externos</h2>
+    <p>Podemos ancorar links utilizando a tag A.</p>
+    <!--Exemplo-->
+    <p>Exemplo:</p>
+    <pre><code>
+    &lt;p&gt;Você pode acessar o <strong>&lt;a href="https://gustavoguanabara.github.io"&gt;Repositório do Guaba&lt;/a&gt;</strong>, no GitHub.&lt;p&gt;        
+    </code></pre>
+    <!--Código-->
+    <p>Você pode acessar o <a href="https://gustavoguanabara.github.io">Repositório do Guaba</a>, no GitHub.</p>   
+    <p>O ideal é que seja utilizado os seguintes parâmetros:</p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;p&gt;Você pode acessar o &lt;a href="https://gustavoguanabara.github.io" <strong>target="_blank" rel="external"</strong>&gt;Repositório do Guaba&lt;/a&gt;, no GitHub.&lt;/p&gt;
+    </code></pre>
+    <!--Código-->
+    <p>Você pode acessar o <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositório do Guaba</a>, no GitHub.</p>
+
+    <h1>Links internos</h2>
+    <p>Podemos ancorar documentos de páginas usando a tag A (o parâmetrol REL identifica se a página será a seguinte ou enterior).</p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;p&gt;Esta é a primeira página do site. Se você quiser, pode acessar também a minha <strong>&lt;a href="pag002.html" rel="next" target="_self"&gt;segunda página&lt;/a&gt;</strong>.&lt;/p&gt;
+    </code></pre>
+    <!--Código-->
+    <p>Esta é a primeira página do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">segunda página</a>.</p>
+    <!--Código-->
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+
+    <h1>Links de Download</h1>
+    <p>Os parâmetros podem variar para cada navegador. Usamos o parâmetro DOWNLOAD, e o parâmetro TYPE, o valor varia com o tipo de aquivo, podemos ver que tipo usar no site <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">iana.org</a> na aba <q>application</q></p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;a href="livro/10 - Ligações em toda parte.zip" download="10 - Ligações em toda parte.pdf" type="application/zip"&gt;Baixar o livro em .ZIP&lt;/a&gt;
+    </code></pre>
+    <!--Códigos-->
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.zip" download="10 - Ligações em toda parte.pdf" type="application/zip">Baixar o livro em .ZIP</a></li>
+    </ul>
+
+</body>
+</html>

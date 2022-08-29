@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+    background-color: #2222FF;
+    font: bold 1em Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px;
+    margin-left: 100px ;
+    margin-right: 100px ;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.destaque_titulo {  /* CLASS */
+    color: #00E5FC;
+}
+
+ul {
+    color: #00E5FC;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {   /* PSEUDO CLASS */
+    background-color: #2222FF;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    font-style: bold;
+}
+
+a:active {  /* PSEUDO CLASS */
+    background-color: #00E5FC;
+}
+
+a::after {  /* PSEUDO ELEMENT */
+    content: ' [Link]';
+    font-weight: lighter;
+    font-style: oblique;
+    color: #00E5FC;
+}

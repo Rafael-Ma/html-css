@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Efeito hover</title>
+    <style>
+        body {
+            font: 1em Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        div > p { /* IRÁ MODIFICAR p APENAS DENTRO DAS div */
+            display: none;  
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: blueviolet;
+            width: 125px;
+        }
+
+        div:hover {
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>Texto escondido.</p>
+    </div>
+</body>
+
+</html>

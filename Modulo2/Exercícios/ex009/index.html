@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <!--Listas Ordenadas-->
+    <h2>Listas Ordenadas </h2>
+    <p>Usamos a tag OL para criar uma lista, e a tag LI para adicionarmos um item (/LI não é necessário para o fechamento da tag.).</p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;ol&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Tomar café&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes&lt;/li&gt;
+    &lt;/ol&gt;    
+    </code></pre>
+    <!--Lista-->
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <p>Atualiza numeração automaticamente ao adicinarmos mais itens.</p>
+    <!--Personalização-->
+    <p>Podemos usar o parâmetro TYPE para mudar o formato da lista.</p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;ol type="A"&gt;
+        &lt;li&gt;Acordar&lt;/li&gt;
+        &lt;li&gt;Tomar café&lt;/li&gt;
+        &lt;li&gt;Escovar os dentes&lt;/li&gt;
+    &lt;/ol&gt;
+    </code></pre>
+    <!--Lista-->
+    <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+    <!--Tipos-->
+    <p>Tipos:</p>
+    <ol>
+        <li>"1" = Numérico</li>
+        <li>"A" = Alfabeto maiúsculo</li>
+        <li>"a" = Alfabeto minúsculo</li>
+        <li>"I" = Romano maiúsculo</li>
+        <li>"i" = Romano minúsculo</li>
+    </ol>
+    <!--Listas não Oedenadas-->
+    <h2>Listas não Ordenadas</h3>
+    <p>Usamos a tag UL.</p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;ul&gt;
+        &lt;li&gt;Pão&lt;/li&gt;
+        &lt;li&gt;Leite&lt;/li&gt;
+        &lt;li&gt;Tomate&lt;/li&gt;
+        &lt;li&gt;Manteiga&lt;/li&gt;
+        &lt;li&gt;Arroz&lt;/li&gt;
+        &lt;li&gt;Feijão&lt;/li&gt;
+    &lt;/ul&gt;
+    </code></pre>
+    <!--Lista-->
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <!--Personalização-->
+    <p>Também podemos usar o parâmetro TYPE</p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;ul type="circle"&gt;
+        &lt;li&gt;Pão&lt;/li&gt;
+        &lt;li&gt;Leite&lt;/li&gt;
+        &lt;li&gt;Tomate&lt;/li&gt;
+        &lt;li&gt;Manteiga&lt;/li&gt;
+        &lt;li&gt;Arroz&lt;/li&gt;
+        &lt;li&gt;Feijão&lt;/li&gt;
+    &lt;/ul&gt;
+    </code></pre>
+    <!--Lista-->
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <!--Tipos-->
+    <p>Tipos:</p>
+    <ul>
+        <li>"disc" = Círculo preenchido</li>
+        <li>"circle" = Círculo vazio</li>
+        <li>"square = Quadrado</li>
+    </ul>
+    <!--Listas Mistas-->
+    <h2>Listas Mistas</h2>
+    <p>Podemos colocar listas dentro de outras</p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;ol>
+        &lt;li&gt;NES&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Mario Bros&lt;/li&gt;
+            &lt;ul type="circle"&gt;
+                &lt;li&gt;Mario Bros 3&lt;/li&gt;
+                &lt;li&gt;Mario: Lost Levels&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;li&gt;Ninja Gaiden&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;SNES&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Mario&lt;/li&gt;
+            &lt;li&gt;Donkey Kong&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li&gt;PlayStation&lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Final Fantasy&lt;/li&gt;
+            &lt;li&gt;Castlevania&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/ol&gt;
+    </code></pre>
+    <!--Listas-->
+    <h3>Jogos favoritos do Guaba</h3>
+    <ol>
+        <li>NES</li>
+        <ul>
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul>
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul>
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <!--Lista de Definições-->
+    <h2>Lista de Definições</h2>
+    <p>Usamos a tag DL. Com as tag DT para o termo e DD para a definição.</p>
+    <!--Exemplo-->
+    <pre><code>
+    &lt;dl&gt;
+        &lt;dt&gt;Termo&lt;/dt&gt;
+        &lt;dd&gt;Definição&lt;/dd&gt;
+        &lt;dt&gt;Segundo Termo&lt;/dt&gt;
+        &lt;dd&gt;Definição do Segundo Termo&lt;/dd&gt;
+    &lt;/dl&gt;
+    </code></pre>
+    <!--Lista-->
+    <h3>Lista:</h3>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Definição</dd>
+        <dt>Segudo Termo</dt>
+        <dd>Definição do Segundo Termo</dd>
+    </dl>
+    
+</body>
+</html>
