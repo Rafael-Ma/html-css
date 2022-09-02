@@ -20,9 +20,9 @@
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex013/">Exercício 13</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex014/">Exercício 14</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex015/">Exercício 15</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor1.html">Exercício 16.1</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor2.html">Exercício 16.2</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor3.html">Exercício 16.3</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor01.html">Exercício 16.1</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor02.html">Exercício 16.2</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor03.html">Exercício 16.3</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex017/fonte01.html">Exercício 17.1</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex017/fonte02.html">Exercício 17.2</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex018/fonte002.html">Exercício 18.1</a></li>
