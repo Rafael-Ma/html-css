@@ -6,7 +6,9 @@
     <a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex002/">Exercício 2</a>
     <a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex003/">Exercício 3</a>
     <a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex004/">Exercício 4</a>
+    <del>Exercício 5</del>
     <a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex006/">Exercício 6</a>
+    <del>Exercício 7</del>
     <a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex008-A/">Exercício 8-A</a>
     <a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex008-B/">Exercício 8-B</a>
     <a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex009/">Exercício 9</a>
