@@ -1,7 +1,7 @@
 # HTML-CSS
  Estudos do curso de HTML5 e CSS do Curso em Vídeo
 
-<h1>Exercícios:</h1>
+<h2>Exercícios</h2>
 
 <ul>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex001/">Exercício 1</a></li>
@@ -11,8 +11,8 @@
     <li><del>Exercício 5</del></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex006/">Exercício 6</a></li>
     <li><del>Exercício 7</del></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex008-A/">Exercício 8-A</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex008-B/">Exercício 8-B</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex008-A/">Exercício 8.1</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex008-B/">Exercício 8.2</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex009/">Exercício 9</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex010/">Exercício 10</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex011/">Exercício 11</a></li>
@@ -20,11 +20,17 @@
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex013/">Exercício 13</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex014/">Exercício 14</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex015/">Exercício 15</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/">Exercício 16</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex017/">Exercício 17</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex018/">Exercício 18</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor1.html">Exercício 16.1</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor2.html">Exercício 16.2</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex016/cor3.html">Exercício 16.3</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex017/fonte01.html">Exercício 17.1</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex017/fonte02.html">Exercício 17.2</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex018/fonte002.html">Exercício 18.1</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex018/fonte011.html">Exercício 18.2</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex001/">Exercício 19</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex020/caixa1.html">Exercício 20.1</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex020/caixa2.html">Exercício 20.2</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex021/">Exercício 21</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex020/hover.html">Exercício 20.1</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex020/links.html">Exercício 20.2</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex020/pseudoclasse.html">Exercício 20.3</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex021/caixa01.html">Exercício 21.1</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex021/caixa02.html">Exercício 21.2</a></li>
 </ul>
