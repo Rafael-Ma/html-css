@@ -7,19 +7,19 @@
 
 Lista de exercícios feitos no módulo 2 do curso
 
-* [Exercício 1](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex001/)
-* [Exercício 2](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex002/)
-* [Exercício 3](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex003/)
-* [Exercício 4](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex004/)
+* [Exercício 1](https://rafael-ma.github.io/html-css/exercícios/ex001/)
+* [Exercício 2](https://rafael-ma.github.io/html-css/exercícios/ex002/)
+* [Exercício 3](https://rafael-ma.github.io/html-css/exercícios/ex003/)
+* [Exercício 4](https://rafael-ma.github.io/html-css/exercícios/ex004/)
 * <del>Exercício 5</del>
-* [Exercício 6](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex006/)
+* [Exercício 6](https://rafael-ma.github.io/html-css/exercícios/ex006/)
 * <del>Exercício 7</del>
-* [Exercício 8.1](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex008-A/)
-* [Exercício 8.2](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex008-B/)
-* [Exercício 9](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex009/)
-* [Exercício 10](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex010/)
-* [Exercício 11](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex011/)
-* [Exercício 12](https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex012/)
+* [Exercício 8.1](https://rafael-ma.github.io/html-css/exercícios/ex008-A/)
+* [Exercício 8.2](https://rafael-ma.github.io/html-css/exercícios/ex008-B/)
+* [Exercício 9](https://rafael-ma.github.io/html-css/exercícios/ex009/)
+* [Exercício 10](https://rafael-ma.github.io/html-css/exercícios/ex010/)
+* [Exercício 11](https://rafael-ma.github.io/html-css/exercícios/ex011/)
+* [Exercício 12](https://rafael-ma.github.io/html-css/exercícios/ex012/)
 * [Exercício 13](https://rafael-ma.github.io/html-css/exercicios/ex013/)
 * [Exercício 14](https://rafael-ma.github.io/html-css/exercicios/ex014/)
 * [Exercício 15](https://rafael-ma.github.io/html-css/exercicios/ex015/)
