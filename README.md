@@ -27,7 +27,7 @@
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex017/fonte02.html">Exercício 17.2</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex018/fonte002.html">Exercício 18.1</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex018/fonte011.html">Exercício 18.2</a></li>
-    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex001/">Exercício 19</a></li>
+    <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex0019/">Exercício 19</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex020/hover.html">Exercício 20.1</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex020/links.html">Exercício 20.2</a></li>
     <li><a href="https://rafael-ma.github.io/html-css/Modulo2/Exercícios/ex020/pseudoclasse.html">Exercício 20.3</a></li>
