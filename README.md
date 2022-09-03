@@ -40,6 +40,8 @@ Lista de exercícios feitos no módulo 2 do curso
 * [Exercício 22.2](https://rafael-ma.github.io/html-css/exercicios/ex022/fundo02.html)
 * [Exercício 22.3](https://rafael-ma.github.io/html-css/exercicios/ex022/fundo03.html)
 * [Exercício 22.4](https://rafael-ma.github.io/html-css/exercicios/ex022/fundo04.html)
+* <del>Exercício 22.5</del>
+
 
 ### Desafios
 
