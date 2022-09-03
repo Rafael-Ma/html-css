@@ -36,6 +36,10 @@ Lista de exercícios feitos no módulo 2 do curso
 * [Exercício 20.3](https://rafael-ma.github.io/html-css/exercicios/ex020/pseudoclasse.html)
 * [Exercício 21.1](https://rafael-ma.github.io/html-css/exercicios/ex021/caixa01.html)
 * [Exercício 21.2](https://rafael-ma.github.io/html-css/exercicios/ex021/caixa02.html)
+* [Exercício 22.1](https://rafael-ma.github.io/html-css/exercicios/ex022/fundo01.html)
+* [Exercício 22.2](https://rafael-ma.github.io/html-css/exercicios/ex022/fundo02.html)
+* [Exercício 22.3](https://rafael-ma.github.io/html-css/exercicios/ex022/fundo03.html)
+* [Exercício 22.4](https://rafael-ma.github.io/html-css/exercicios/ex022/fundo04.html)
 
 ### Desafios
 
