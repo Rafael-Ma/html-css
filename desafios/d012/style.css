@@ -1,2 +1,71 @@
 @charset "UTF-8";
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%vh;
+    background-color: rgb(215, 215, 215);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 32px;
+}
+
+header h1 {
+    font-family: 'Noto Serif Display', serif;
+    letter-spacing: 3px;
+    font-variant: small-caps;
+    /* padding-top: 32px; */
+}
+
+section {
+    padding: 8vh 30px;
+    line-height: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: black;
+}
+
+.imagem {
+    color: white;
+}
+
+.imagem p {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    /* padding-bottom: 32px; */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
