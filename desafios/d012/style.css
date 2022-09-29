@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Variables */
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Noto Serif', serif;
+    --font3: 'Abyssinica SIL', serif;
+}
 
+/* General atributes */
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +15,37 @@
 
 html {
     min-height: 100%vh;
-    background-color: rgb(215, 215, 215);
+    background: rgb(215, 215, 215);
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+html, body {
+    font-family: var(--font1);
+}
+
+p {
+    font-family: var(--font2);
+    font-weight: 500;
+}
+
+header h1 {
+    letter-spacing: 3px;
+    font-variant: small-caps;
+}
+
+header h1, p {
+    font-family: var(--font3);
+}
+
+/* Header */
 header {
     background-color: black;
     color: white;
@@ -21,13 +53,7 @@ header {
     padding: 32px;
 }
 
-header h1 {
-    font-family: 'Noto Serif Display', serif;
-    letter-spacing: 3px;
-    font-variant: small-caps;
-    /* padding-top: 32px; */
-}
-
+/* Sections */
 section {
     padding: 8vh 30px;
     line-height: 2em;
@@ -38,34 +64,23 @@ section {
     color: black;
 }
 
-.imagem {
-    color: white;
-}
-
 .imagem p {
-    width: 350px;
+    display: inline-block;
+    color: white;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-p {
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
-    /* padding-bottom: 32px; */
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
+/* Footer */
 footer {
     background-color: black;
     color: white;
     padding: 5px;
     text-align: center;
+}
+
+/* Animation */
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
 }
