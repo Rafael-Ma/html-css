@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+main p {
+    padding: 1em 0;
+}
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
@@ -64,11 +68,28 @@ section {
     color: black;
 }
 
+.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.2)
+}
+
 .imagem p {
     display: inline-block;
     color: white;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Backgrounds */
+#img1 {
+    background: url(./imagens/background001.jpg) right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img2 {
+    background: url(./imagens/background002.jpg) right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* Footer */
