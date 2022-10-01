@@ -32,7 +32,8 @@ main p {
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
 
-html, body {
+html,
+body {
     font-family: var(--font1);
 }
 
@@ -47,7 +48,8 @@ header h1 {
     font-variant: small-caps;
 }
 
-header h1, p {
+header h1,
+p {
     font-family: var(--font3);
 }
 
