@@ -17,11 +17,18 @@
             width: 400px;
         }
 
+        caption {
+            border: 1px solid black;
+            font-variant: small-caps;
+        }
+
+        caption,
         thead, 
         tfoot {
             background-color: darkgray;
         }
 
+        caption,
         th,
         td {
             border: 1px solid black;
@@ -34,11 +41,12 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead> <!-- Cabeçalho -->
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
 
@@ -97,7 +105,7 @@
         <tfoot> <!-- pé -->
             <tr>
                 <th></th>
-                <th>Total de habitantes:</th>
+                <th scope="row">Total de habitantes:</th>
                 <td>149.604.781</td>
             </tr>
         </tfoot>
