@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        thead, 
+        tfoot {
+            background-color: darkgray;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 2px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <thead> <!-- Cabeçalho -->
+            <tr>
+                <th>Posição</th>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody> <!-- Corpo -->
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 411 923</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 463 349</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 985 284</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td>11 597 484</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 466 630</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernanbuco</td>
+                <td>9 674 793</td>    
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td>9 240 580</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td>8 777 124</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td>7 338 473</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- pé -->
+            <tr>
+                <th></th>
+                <th>Total de habitantes:</th>
+                <td>149.604.781</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
