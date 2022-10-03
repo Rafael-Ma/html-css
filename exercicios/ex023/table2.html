@@ -17,22 +17,28 @@
             width: 400px;
         }
 
+        thead > tr > th {
+            position: sticky; /* Cabeçalho fixo na rolagem */
+            top: 0;
+            background-color: darkgray;
+        }
+
         caption {
             border: 1px solid black;
             font-variant: small-caps;
         }
 
         caption,
-        thead, 
+        thead,
         tfoot {
             background-color: darkgray;
+            border: 1px solid black;
         }
 
         caption,
         th,
         td {
             border: 1px solid black;
-            padding: 2px 5px;
         }
     </style>
 </head>
