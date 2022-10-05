@@ -16,6 +16,15 @@
             display: block;
             margin: auto;
         }
+
+        .error {
+            background-color: red;
+            color: white;
+            padding: 2px 6px;
+            display: inline;
+            border-radius: 8px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        }
     </style>
 </head>
 <body>
@@ -23,7 +32,9 @@
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iusto porro at necessitatibus, aspernatur natus? Eius delectus eos distinctio exercitationem necessitatibus consectetur impedit quidem, quibusdam reprehenderit ex eaque at nostrum.</p>
     
-    <iframe src="page1.html"></iframe>
+    <iframe src="extra-pages/page1.html">
+        <p class="error">Infelizmente seu navegador não é compatível com esse recurso.</p>
+    </iframe>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores accusamus molestiae quidem eaque iure facere aut eius rem mollitia. Quae omnis sapiente, ad ex veniam excepturi soluta expedita optio!</p>
 </body>
