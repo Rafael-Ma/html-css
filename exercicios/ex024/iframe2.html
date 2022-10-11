@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>irfame</title>
+    <style>
+        * {
+            font: 1em Arial, sans-serif;
+        }
+
+        iframe {
+            height: 300px;
+            width: 500px;
+            display: block;
+            margin: auto;
+        }
+
+        .error {
+            background-color: red;
+            color: white;
+            padding: 2px 6px;
+            display: inline;
+            border-radius: 8px;
+            box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste com iframe</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius iusto porro at necessitatibus, aspernatur natus? Eius delectus eos distinctio exercitationem necessitatibus consectetur impedit quidem, quibusdam reprehenderit ex eaque at nostrum.</p>
+    
+    <iframe src="extra-pages/page1.html">
+        <p class="error">Infelizmente seu navegador não é compatível com esse recurso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores accusamus molestiae quidem eaque iure facere aut eius rem mollitia. Quae omnis sapiente, ad ex veniam excepturi soluta expedita optio!</p>
+</body>
+</html>

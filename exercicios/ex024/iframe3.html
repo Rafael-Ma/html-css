@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iFrames</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #screen {
+            width: 95vw;
+            height: 300px;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius placeat perferendis, unde, voluptatibus corporis cumque, facere asperiores voluptates dolor pariatur dolore autem. Illum magni dolor ad eos possimus odit harum!</p>
+
+    <ul>
+        <li>
+            <a href="extra-pages/page1.html" 
+               target="frame">1st Page</a>
+        </li>
+        <li>
+            <a href="extra-pages/page2.html" 
+               target="frame">2nd Page</a>
+        </li>
+        <li>
+            <a href="extra-pages/page3.html" 
+               target="frame">3th Page</a>
+        </li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi harum quo atque quia. Voluptate deleniti so luta quis rem. Maxime eaque quibusdam temporibus mollitia labore sapiente consectetur qui quaerat saepe perferendis!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi harum quo atque quia. Voluptate deleniti so luta quis rem. Maxime eaque quibusdam temporibus mollitia labore sapiente consectetur qui quaerat saepe perferendis!Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+    <iframe 
+        id="screen"  
+        name="frame" 
+        src="extra-pages/page1.html"
+        frameborder="0">
+            <p class="error">Infelizmente seu navegador não é compatível.</p>
+    </iframe>
+</body>
+</html>
