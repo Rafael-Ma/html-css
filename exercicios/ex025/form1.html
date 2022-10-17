@@ -9,8 +9,13 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
+<p>Métodos:</p>
+    <ul>
+        <li>GET Quando os dados não forem sensíveis, facilita o compartlhamento por url. Max: 3000 bytes.</li>
+        <li>POST Quando forem dados sensíveis, para enviar arquivos.</li>
+    </ul>
 
-    <form action=""autocomplete="off">
+    <form action="cadastro.php" autocomplete="off" method="POST">
         <p>
             <label for="iname">Nome:</label> 
             <input type="text" name="name" id="iname">
