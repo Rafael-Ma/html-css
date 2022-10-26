@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tp-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Exemplo de formulário</h1>
+        <form action="#" method="get">
+            <p>
+                <label for="iest">Estado</label>
+                <select name="estado" id="iest">
+                    <optgroup label="A">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                    </optgroup>
+
+                    <optgroup label="B">
+                        <option value="BA">Bahia</option>
+                    </optgroup>
+                    
+                    <optgroup label="C">
+                        <option value="CE">Ceará</option>
+                    </optgroup>
+
+                    <optgroup label="E">
+                        <option value="ES">Espírito Santo</option>
+                    </optgroup>
+                    
+                    <optgroup label="G">
+                        <option value="GO">Goiás </option>
+                    </optgroup>
+                    
+                    <optgroup label="M">
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+                    <optgroup label="P">
+                        <option value="PA">Paraná</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernanbuco</option>
+                        <option value="PI">Piauí</option>
+                    </optgroup>
+
+                    <optgroup label="R">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                    </optgroup>
+                    
+                    <optgroup label="S">
+                        <option value="SC" selected>Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                    </optgroup>
+
+                    <optgroup label="T">
+                        <option value="TO">Tocantis</option>
+                    </optgroup>
+                    
+                    <optgroup label="D">
+                        <option value="DF">Distrito Federal</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>
+                <label for="iprofissao">Profissão</label>
+                <input type="text" name="profissao" id="iprofissao" list="lista-profissao">
+
+                <datalist id="lista-profissao">
+                    <option>Administrador</option>
+                    <option>Contabilista</option>
+                    <option>Desenvolvedor</option>
+                    <option>Professor</option>
+                </datalist>
+            </p>
+
+            <p>
+
+                <label for="imenssagem">Menssgem</label>
+                <textarea name="menssagem" id="imenssagem" cols="30" rows="10"></textarea>
+            </p>
+            
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </p>
+        </form>
+    </body>
+</html>
