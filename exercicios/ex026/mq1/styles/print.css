@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* Estilos para impressoras */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    margin: auto;
+    width: 85vw;
+}
+
+main::after {
+    content: "Impresso no site noticias.com";
+}
+
+content {
+    padding: 0px 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin: 15px;
+}
+
