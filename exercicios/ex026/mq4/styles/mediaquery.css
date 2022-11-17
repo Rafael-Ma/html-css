@@ -2,7 +2,74 @@
 
 /* Todas as demais mídias */
 
+/* Typical Device Breakpoints */
+/* Phone: */
+/* Tablet: */
+/* Desktop: */
+/* TV: */
+
 /* Impressoras */
 @media print {
-    
+    h1 {
+        text-shadow: none;
+        color: black;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita sei lá por onde.';
+        font-size: 0.5em;
+    }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: block;}
+    #pc{display: none;}
+    #tv{display: none;}
 }
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: url(../imagens/back-tablet.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    #phone {display: none;}
+    #tablet {display: block;}
+    #print {display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
+}
+
+/* Laptops and PCs  */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: url(../imagens/back-pc.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc{display: block;}
+    #tv{display: none;}
+}
+
+/* PCs and TVs  */
+@media screen and (min-width:1200px) {
+    body {
+        background: url(../imagens/back-tv.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    #phone {display: none;}
+    #tablet {display: none;}
+    #print {display: none;}
+    #pc{display: none;}
+    #tv{display: block;}
