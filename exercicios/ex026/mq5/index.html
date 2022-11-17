@@ -8,6 +8,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Styles -->
         <link rel="stylesheet" href="style.css">
 
@@ -16,7 +18,8 @@
     <body>
         <header>
             <h1>Sitezão</h1>
-            <menu>
+            <span id="iconeMenu" class="material-icons" onclick="clickMenu()">&#xe5d2</span> <!-- Menu icon -->
+            <menu id="menu">
                 <ul>
                     <li><a href="#">Blá</a></li>
                     <li><a href="#">Blá</a></li>
@@ -37,5 +40,14 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, ipsam accusantium. Tempora expedita necessitatibus officiis, optio doloremque vitae! Distinctio iste consequatur quae veritatis mollitia laudantium laboriosam, nisi eligendi cupiditate! Magnam?</p>
             </article>
         </main>
+        <script>
+            function clickMenu()  {
+                if (menu.style.display == 'block') {
+                    menu.style.display = 'none'
+                } else {
+                    menu.style.display = 'block'
+                }
+            }
+        </script>
     </body>
 </html>
