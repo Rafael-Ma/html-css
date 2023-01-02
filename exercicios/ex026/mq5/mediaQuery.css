@@ -9,14 +9,12 @@
         display: block;
     }
 
-    ul {
-        display: flex;
-        justify-content: center;
-        gap: 24px;
+    menu> ul > li {
+        display: inline-block;
     }
 
-    menu li {
-        display: inline
+    main {
+        width: 992px;
     }
 
     menu a {
